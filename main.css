@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: Roboto, Courier, monospace;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-nav {
+    border-bottom: gray 5px solid;
+    position: sticky;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    height: 600px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+#intro {
+    height: 600px;
+    background-image: linear-gradient(to bottom left, red 80%, gray);
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 250px;
+}
+
+#intro img {
+    float: right;
+    height: 100%;
+    width: 60%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-nav ul {
+    gap: 20px;
+    display: flex;
+}
+
+
+
+.main-nav a {
+    font-size: 18px;
+    padding: 15px 10px;
+}
+
+.main-nav a:hover {
+    color: red;
+    background-color: rgba(239, 120, 243, 0.3);
+    border-radius: 5px;
+}
+
+.nav-socials {
+    margin-right: auto;
+}
+
+.nav-logo {
+    width: 80px;
+
+}
+
+.countries-selection {
+    width: 80%;
+    height: 600px;
+    text-align: center;
+}
+
+.country-gallery {
+    margin: 10px auto;
+}
+
+.country-gallery a {
+    margin: 5px 10px;
+    display: inline-block;
+    padding: 80px 120px;
+    border: 1px black solid;
+    background-size: cover;
+    font-size: 20px;
+}
+
+#italy {
+    background-image: url(images/Flag_of_Italy.png);
+}
+
+#tibet {
+    background-image: url(images/Flag_of_Tibet.svg.png);
+}
+
+#thailand {
+    background-image: url(images/Flag_of_Thailand.svg.png);
+    background-size: contain;
+}
+
+#japan {
+    background-image: url(images/Flag_of_Japan.svg.png);
+}
+
+#korea {
+    background-image: url(images/korean-flag.jpg);
+}
+
+#indonesia {
+    background-image: url(images/Flag_of_Indonesia.svg.png);
+    background-size: contain;
+}
+
+#turkey {
+    background-image: url(images/Flag_of_Turkey.svg.png);
+    background-size: contain;
+}
+
+footer {
+    height: 200px;
+}
